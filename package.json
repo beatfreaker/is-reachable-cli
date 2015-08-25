@@ -10,7 +10,7 @@
     "url": "http://beatfreaker.github.io/"
   },
   "bin": {
-    "is-online": "cli.js"
+    "is-reachable": "cli.js"
   },
   "engines": {
     "node": ">=0.10.0"
