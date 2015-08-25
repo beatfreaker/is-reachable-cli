@@ -1,6 +1,6 @@
 {
   "name": "is-reachable-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if hostnames are reachable",
   "license": "MIT",
   "repository": "beatfreaker/is-reachable-cli",
