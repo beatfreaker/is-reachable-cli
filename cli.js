@@ -7,7 +7,7 @@ var isReachable = require('is-reachable');
 var cli = meow({
 	help: [
 		'Example',
-		'  $ is-reachable-cli www.google.com',
+		'  $ is-reachable www.google.com',
 		'  ' + logSymbols.success + ' Reachable'
 	]
 });
