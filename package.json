@@ -1,0 +1,48 @@
+{
+  "name": "is-reachable-cli",
+  "version": "1.0.0",
+  "description": "Check if hostnames are reachable",
+  "license": "MIT",
+  "repository": "beatfreaker/is-reachable-cli",
+  "author": {
+    "name": "Chintan Radia",
+    "email": "radiachints1512@gmail.com",
+    "url": "http://beatfreaker.github.io/"
+  },
+  "bin": {
+    "is-online": "cli.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "browser",
+    "online",
+    "offline",
+    "connectivity",
+    "network",
+    "internet",
+    "detect",
+    "reachable",
+    "reachability",
+    "server",
+    "host",
+    "accessible",
+    "socket",
+    "hostname"
+  ],
+  "dependencies": {
+    "is-reachable": "^1.0.0",
+    "log-symbols": "^1.0.0",
+    "meow": "^3.3.0"
+  },
+  "devDependencies": {
+    "xo": "*"
+  }
+}
