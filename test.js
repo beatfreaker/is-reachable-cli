@@ -7,12 +7,12 @@ test('Testing output', function (t) {
 		if (err) {
 			t.end();
 		}
-		t.equal("✔ Reachable\n", stdout, "Both strings are equal");
+		t.equal('✔ Reachable\n',  stdout, 'Both strings are equal');
 	});
 	childProcess.execFile('./cli.js', ['randowmtext'], {cwd: __dirname}, function (err, stdout) {
 		if (err) {
 			t.end();
 		}
-		t.equal("✖ Not Reachable\n", stdout, "Both strings are equal");
+		t.equal('✖ Not Reachable\n', stdout, 'Both strings are equal');
 	});
 });
